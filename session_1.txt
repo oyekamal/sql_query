@@ -59,6 +59,9 @@ desc employee;  it will show the structure of the table
 drop table employee; it will delete the table
 
 
+create table trendytech.employee1 (     name varchar(50),     age int,     salary int    ); another way to do it .
+
+
 
 
 
