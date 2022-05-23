@@ -1,0 +1,64 @@
+what is a databaase?
+a collection of data and holds this data in the form of tables.
+
+what is a table 
+holds the data in form of rows and columns;
+
+the database provides us the capability to access and manipulate this data.
+
+2 types of database
+
+1. Relational database - rows and columns and also the tables have relation between them.
+MYsql, sql server, PostgresSQL, SQLite, MariaDB
+2. NoSql database -   key value, document, graph. have no relation between tables.
+Hbase, mongodb, cassandra
+
+ 
+SQL: structured query language and is used to query a Relational DB 
+
+MySQL vs SQL
+
+Installation 
+
+create account in GoormIDE and login
+
+mysql-ctl cli;
+
+
+show databases;
+
+
+create database trendytech;
+
+drop database test;  to delete the database;
+
+use trendytech;  it will start using the database
+
+select database();  it will show which database are you using;
+
+create table;
+
+create table employee
+(
+    name varchar(50),
+    age int,
+    salary int  
+
+);
+
+Int for numeric
+varchar fo string 255
+
+
+show tables; to see the tables
+describe employee;  it will show the structure of the table
+
+desc employee;  it will show the structure of the table
+
+
+drop table employee; it will delete the table
+
+
+
+
+
